@@ -29,6 +29,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_less_checkers = ['recess']
 
 "Ignore Angular directives
 let g:syntastic_html_tidy_ignore_errors=["<ion-", "discarding unexpected </ion-", ' proprietary attribute "ng-'] 
