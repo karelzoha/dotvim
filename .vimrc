@@ -10,6 +10,7 @@ set tabstop=2
 set shiftwidth=2
 set backspace=indent,eol,start
 let delimitMate_expand_cr=1
+set columns=190
 
 execute pathogen#infect()
 syntax on
@@ -18,6 +19,7 @@ filetype plugin indent on
 au BufNewFile,BufRead *.ejs set filetype=html
 
 map <C-e> :NERDTreeToggle<CR>
+map <C-h> :TernDef<CR>
 
 "Syntastic config starts here
 set statusline+=%#warningmsg#
