@@ -39,3 +39,6 @@ let g:syntastic_html_tidy_ignore_errors=["<ion-", "discarding unexpected </ion-"
 let g:jsx_ext_required = 0
 
 "Syntastic config ends here
+
+"Flowtype config
+let g:flow#autoclose = 1
