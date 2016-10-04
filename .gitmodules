@@ -43,3 +43,6 @@
 [submodule "bundle/vim-flow"]
 	path = bundle/vim-flow
 	url = https://github.com/flowtype/vim-flow
+[submodule "bundle/vim-node"]
+	path = bundle/vim-node
+	url = https://github.com/moll/vim-node
