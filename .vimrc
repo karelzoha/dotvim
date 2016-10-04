@@ -10,7 +10,6 @@ set tabstop=2
 set shiftwidth=2
 set backspace=indent,eol,start
 let delimitMate_expand_cr=1
-set columns=190
 
 execute pathogen#infect()
 syntax on
