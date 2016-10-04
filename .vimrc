@@ -13,6 +13,12 @@ let delimitMate_expand_cr=1
 
 execute pathogen#infect()
 syntax on
+if has('gui_running')
+  set background=light
+else
+  set background=dark
+endif
+colorscheme solarized
 filetype plugin indent on
 
 au BufNewFile,BufRead *.ejs set filetype=html
