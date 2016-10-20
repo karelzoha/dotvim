@@ -24,7 +24,6 @@ filetype plugin indent on
 au BufNewFile,BufRead *.ejs set filetype=html
 
 map <C-e> :NERDTreeToggle<CR>
-map <C-h> :TernDef<CR>
 
 "Syntastic config starts here
 set statusline+=%#warningmsg#
