@@ -30,6 +30,7 @@ let g:jsx_ext_required = 0
 
 "Flowtype config
 let g:flow#autoclose = 1
+let g:flow#timeout = 4
 
 "Javascript libraries syntax
 let g:used_javascript_libs = 'underscore,jquery,react,jasmine,chai,handlebars,ramda'
